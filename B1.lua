@@ -893,9 +893,9 @@ do
 			if not EnterPressed then 
 				return
 			else
-				callback(TextBox.Text)
+				callback(input.Text)
 				wait(0.18)
-				TextBox.Text = ""  
+				input.Text = ""  
 			end
 		end)
 		
